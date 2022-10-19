@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.fluid.classless.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="./index.js"></script>
+  <title>Examen 01 - Ejercicio 01</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Identificación mediante NIF</h1>
+
+    <form id="form" action="acceso.php">
+      <label for="nif">NIF</label>
+      <input type="text" name="nif" id="nif">
+  
+      <input type="submit" value="ENVIAR">
+      <input type="reset" value="BORRAR">
+  
+      <p id="error"></p>
+    </form>
+  </div>
+</body>
+</html>
